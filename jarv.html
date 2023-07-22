@@ -7,15 +7,13 @@
     <title>Document</title>
   </head>
   <body>
-    <p id="demo"></p>
-
-    <script>
-      let bets = "";
-
-      for (let i = 0; i < 10; i++) {
-        bets += "This is the addition of 1 " + i;
-      }
-      document.getElementById("demo").innerHTML = bets;
-    </script>
+    <h1>Changing the Body by using javascript button</h1>
+    <p id="demo">This IS Demo Will be changed when you click the</p>
+    <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML= 'Hello Jarvis'"
+    >
+      Click Me
+    </button>
   </body>
 </html>
